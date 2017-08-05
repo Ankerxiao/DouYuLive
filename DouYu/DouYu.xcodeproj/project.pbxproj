@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		108366541F34DFE100058ECF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108366531F34DFE100058ECF /* AppDelegate.swift */; };
-		108366561F34DFE100058ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 108366551F34DFE100058ECF /* ViewController.swift */; };
 		108366591F34DFE100058ECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 108366571F34DFE100058ECF /* Main.storyboard */; };
 		1083665C1F34DFE100058ECF /* DouYu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1083665A1F34DFE100058ECF /* DouYu.xcdatamodeld */; };
 		1083665E1F34DFE100058ECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1083665D1F34DFE100058ECF /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		108366501F34DFE100058ECF /* DouYu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		108366531F34DFE100058ECF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		108366551F34DFE100058ECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		108366581F34DFE100058ECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1083665B1F34DFE100058ECF /* DouYu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DouYu.xcdatamodel; sourceTree = "<group>"; };
 		1083665D1F34DFE100058ECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,8 +97,8 @@
 		108366521F34DFE100058ECF /* DouYu */ = {
 			isa = PBXGroup;
 			children = (
+				11DF860A1F36043900420826 /* Classes */,
 				108366531F34DFE100058ECF /* AppDelegate.swift */,
-				108366551F34DFE100058ECF /* ViewController.swift */,
 				108366571F34DFE100058ECF /* Main.storyboard */,
 				1083665D1F34DFE100058ECF /* Assets.xcassets */,
 				1083665F1F34DFE100058ECF /* LaunchScreen.storyboard */,
@@ -126,6 +124,61 @@
 				108366781F34DFE100058ECF /* Info.plist */,
 			);
 			path = DouYuUITests;
+			sourceTree = "<group>";
+		};
+		11DF860A1F36043900420826 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				11DF860E1F36043900420826 /* Main */,
+				11DF860C1F36043900420826 /* Home */,
+				11DF860B1F36043900420826 /* Follow */,
+				11DF860D1F36043900420826 /* Live */,
+				11DF860F1F36043900420826 /* Profile */,
+				11DF86101F36043900420826 /* Tools */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		11DF860B1F36043900420826 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		11DF860C1F36043900420826 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		11DF860D1F36043900420826 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		11DF860E1F36043900420826 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		11DF860F1F36043900420826 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		11DF86101F36043900420826 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +319,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1083665C1F34DFE100058ECF /* DouYu.xcdatamodeld in Sources */,
-				108366561F34DFE100058ECF /* ViewController.swift in Sources */,
 				108366541F34DFE100058ECF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,7 +474,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = X475G9AZN5;
 				INFOPLIST_FILE = DouYu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.douyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +489,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = X475G9AZN5;
 				INFOPLIST_FILE = DouYu/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiao.douyu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
